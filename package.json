@@ -1,0 +1,16 @@
+{
+  "name": "microtimeserver",
+  "version": "1.0.1",
+  "description": "The elegant and lightweight boilerplate for full stack JavaScript.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "express-session": "^1.11.3",
+    "mongodb": "^2.1.19",
+    "mongoose": "^4.4.19",
+    "useragent": "^2.1.9"
+  }
+}
