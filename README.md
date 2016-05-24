@@ -3,7 +3,7 @@
 
 ## Quick Start Guide
 
-Visit urlshortms.herokuapp.com
+Visit imsearchms.herokuapp.com
 
 ## User stories fullfiled
     1) I can get the image URLs, alt text and page urls for a set of images relating to a given search string.

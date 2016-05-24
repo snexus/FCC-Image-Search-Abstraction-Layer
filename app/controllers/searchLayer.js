@@ -2,8 +2,8 @@ var mongo = require('mongodb').MongoClient;
 var https = require('https');
 var mongoose = require('mongoose')
 var dbURI = process.env.MONGO_URI;
-var apiKey = "AIzaSyB0oslYUFh67kBsl_0Aj2NskdlrzcPEkyU"
-var cx = "006989412859243988220:hq5-0dqmqug"
+var apiKey = "YOURAPI"
+var cx = "YOURCX"
 var host = "https://www.googleapis.com"
 
 mongoose.connect(dbURI);
@@ -63,8 +63,6 @@ module.exports = {
             });
             
           });
-   
-
     },
     
     getRecentQueries: function(callback)
